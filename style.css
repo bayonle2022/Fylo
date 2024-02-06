@@ -1,0 +1,296 @@
+
+body{
+    font-family: "Open Sans";
+    font-size: 16px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Raleway";
+    line-height: 35px;
+}
+.text{
+    width: 50%;
+    font-size: 11px;
+   padding-left: 100px;
+    
+   
+}
+.q{
+    width: 100%;
+}
+h3{
+    padding-left: 100px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+   padding-right: 10px;
+   font-size: 14px;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    
+  }
+.nav-bar{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.row{
+     column-count: 2;
+     column-gap: 300px;
+     padding-top: 50px;
+     width: 100%;
+     padding-left: 50px;
+     padding-bottom: 50px;
+     
+     
+   
+     
+}
+.column{
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.img{
+    width: 80%;
+}
+.man{
+    width: 10%;
+    border-radius: 100%;
+    position: relative;top: 10px;
+    text-align: center;
+}
+.testimonial{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Open sans";
+    font-weight: 200;
+    text-align: justify;
+    margin-bottom: 100px;
+    padding-left: 60px;
+   padding-bottom: 10px;
+    line-height: 30px;
+}
+.layer-3{
+
+    min-height: 30vh;
+width: 100%;
+    background-color: #575989;
+    color: white;
+    column-count: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 25px;
+
+}
+.Fylo{
+   width: 8%;
+   margin: 20px;
+   
+}
+.email{
+    width: 250px;
+    min-height: 30px;
+  padding-right: 20px;
+   box-sizing: border-box;
+}
+.submit{
+    background-color: rgb(79, 79, 195);
+    color: aliceblue;
+    width: 150px;
+    min-height: 30px;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+.submit:hover{
+    background-color: blue;
+}
+.arrow{
+    color: #83b3b1;
+   
+}
+.Fylo-p{
+text-size-adjust: 29px;
+}
+.column-1{
+    padding-top: 40px;
+}
+.email-2{
+    width: 300px;
+    min-height: 30px;
+    margin-left:200px ;
+    font-family: "open sans";
+}
+.submit-2{
+    background-color: rgb(79, 79, 195);
+    color: aliceblue;
+    width: 150px;
+    min-height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left:200px ;
+}
+.submit-2:hover{
+    background-color: blue;
+}
+.one{
+    
+letter-spacing: -1px;
+width: 300px;
+padding-right: 10px;
+    
+}
+.ceo{
+margin-left: 40px;
+font-size: 11px;
+font-weight: 600;
+position: relative;top: -22px;
+
+}
+.kyle{
+    font-weight: bold;
+    font-family:"Raleway";
+}
+
+.last{
+    background-color: hsl(243, 87%, 12%);
+    height: 300px;
+    width: 100%;
+    color: white;
+}
+.img-last{
+width: 10%;
+padding-top: 60px;
+padding-left: 40px;
+}
+.last-row{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    font-size: 15px;
+
+}
+.social{
+    word-spacing: 20px;
+}
+.first{
+    padding-left: 40px;
+}
+.im{
+    margin-right: 20px;
+}
+
+@media(max-width : 1028px){
+.row{
+    column-count: 1;
+    order: 1,3,2;
+    text-align: center;
+    width: 70%;
+}
+.email{
+    width: 100%;
+    padding-left: 30px;
+}
+.submit{
+    width: 100%;
+    margin-top: 15px;
+}
+.column{
+    
+}
+.img{
+    order: 1;
+}
+.q{
+    width: 50%;
+    padding-left: 40px;
+}
+.two{
+    width: 80%;
+    background-image: url(images/bg-curve-mobile.svg);
+    background-size: cover;
+}
+.testimonial{
+    padding-left: 0px;
+}
+.one{
+    padding-left: 20px;
+}
+.ceo{
+    padding-left: 20px;
+}
+.kyle{
+    padding-left: 20px;
+}
+.layer-3{
+    width: 80%;
+    text-align: center;
+    height: 250px;
+}
+.column{
+    text-align: center;
+    margin-top: 5px;
+    width: 120%;
+    
+
+}
+.text{
+    text-align: center;
+    width: 120%;
+    padding: 0PX;
+    padding-left: 90px;
+}
+.email-2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    position: relative;right: 100px;top: 100px;
+}
+.submit-2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    margin-top: 0;
+    position: relative;right: 100px;top: 100px;
+}
+.last{
+    width: 80%;
+}
+    }
+
+
+
+
+
+
+
+
+
+
